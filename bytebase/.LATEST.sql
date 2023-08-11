@@ -1,17 +1,12 @@
-create schema CONCUR;
-
 create schema PRONTO;
 
 create TABLE PRONTO.TABLE07 (
 	COL1 VARCHAR(3)
 );
-create TABLE PRONTO.TEST06 (
-	ENTITYID VARCHAR(3),
-	EMPLOYEEID VARCHAR(15)
-);
 create schema TM1;
 
-create TABLE TM1."table11" (
-	CODE VARCHAR(3),
-	DESC VARCHAR(60)
+create TABLE TM1."table12" (
+	"Code" VARCHAR(3),
+	"Desc" VARCHAR(60),
+	"Type" VARCHAR(3)
 );
