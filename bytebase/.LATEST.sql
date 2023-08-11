@@ -10,3 +10,12 @@ create TABLE TM1."table12" (
 	"Desc" VARCHAR(60),
 	"Type" VARCHAR(3)
 );
+create view TM1.VIEW01(
+	"Code",
+	"Desc",
+	"Type"
+) as
+select
+  *
+from
+  tm1."table12";
